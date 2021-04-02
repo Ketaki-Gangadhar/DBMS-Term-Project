@@ -63,6 +63,26 @@
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:textColorHint="#72191818" />
+        <EditText
+            android:id="@+id/roll_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Roll No"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColorHint="#72191818" />
+        <EditText
+            android:id="@+id/enrolment_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Enrolment No"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColorHint="#72191818" />
 
         <EditText
             android:id="@+id/course"
@@ -130,7 +150,11 @@
                 android:paddingHorizontal="20dp"
                 android:text="Select Gender"
                 android:textSize="16sp" />
-
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
             <RadioButton
                 android:id="@+id/female"
                 android:layout_width="wrap_content"
@@ -150,6 +174,7 @@
                 android:text="Male"
                 android:textColor="#72191818"
                 android:textSize="18sp" />
+             </RadioGroup>
         </LinearLayout>
 
         <LinearLayout
@@ -166,7 +191,11 @@
                 android:paddingHorizontal="20dp"
                 android:text="Select Hostel"
                 android:textSize="16sp" />
-
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
             <RadioButton
                 android:id="@+id/hostel_a"
                 android:layout_width="wrap_content"
@@ -196,9 +225,19 @@
                 android:text="C"
                 android:textColor="#72191818"
                 android:textSize="18sp" />
+            </RadioGroup>
         </LinearLayout>
 
-
+        <EditText
+            android:id="@+id/room_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/s6"
+            android:padding="10dp"
+            android:textColorHint="#72191818" />
 
         <Button
             android:id="@+id/submit_button"
@@ -208,7 +247,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/button_bg"
             android:fontFamily="@font/aclonica"
-            android:text="Submit"
+            android:text="@string/submit"
             android:textAllCaps="false"
             android:textColor="@color/white" />
 

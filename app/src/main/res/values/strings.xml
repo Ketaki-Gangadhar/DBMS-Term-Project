@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Hostel Management System</string>
     <string name="s1">Hostel Management System</string>
+    <string name="s3">View All Students</string>
+    <string name="s2">Insert New Entry</string>
+    <string name="s4">Update Information</string>
+    <string name="s5">Delete Entry</string>
+    <string name="s6">Room No</string>
+    <string name="submit">Submit</string>
 </resources>
