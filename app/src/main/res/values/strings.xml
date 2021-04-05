@@ -1,10 +1,27 @@
 <resources>
     <string name="app_name">Hostel Management System</string>
-    <string name="s1">Hostel Management System</string>
-    <string name="s3">View All Students</string>
-    <string name="s2">Insert New Entry</string>
-    <string name="s4">Update Information</string>
-    <string name="s5">Delete Entry</string>
     <string name="s6">Room No</string>
     <string name="submit">Submit</string>
+    <string name="hostel_management_system">Hostel Management System</string>
+    <string name="staff">For Staff</string>
+    <string name="for_student">For Student</string>
+    <string name="student_login_portal">Student LogIn Portal</string>
+    <string name="password">Password</string>
+    <string name="login">LogIn</string>
+    <string name="student_registration_portal">Student Registration Portal</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="staff_login_portal">Staff LogIn Portal</string>
+    <string name="staff_registration_portal">Staff Registration Portal</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="address">Address</string>
+    <string name="phone_no">Phone No</string>
+    <string name="your_role_or_position">Your Role or Position</string>
+    <string name="roll_no">Roll No</string>
+    <string name="enrollment_no">Enrolment No</string>
+    <string name="branch">Branch</string>
+    <string name="semester">Semester</string>
+    <string name="new_user_create_account">New User? Create Account</string>
+    <string name="already_have_account_login_here">Already have Account? LogIn here</string>
 </resources>
