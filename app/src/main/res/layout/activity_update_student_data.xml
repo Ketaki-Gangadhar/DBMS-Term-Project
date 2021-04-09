@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StaffRegister">
+    tools:context=".UpdateStudentData">
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/aclonica"
         android:gravity="center"
         android:padding="8dp"
-        android:text="@string/staff_registration_portal"
+        android:text="@string/update_info"
         android:textColor="#086A25"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,11 +22,11 @@
 
 
     <EditText
-        android:id="@+id/staff_name"
+        android:id="@+id/st_student_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/edit_text_bg"
         android:hint="@string/enter_your_name"
@@ -36,26 +36,71 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
 
     <EditText
-        android:id="@+id/staff_email"
+        android:id="@+id/st_student_roll_no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/edit_text_bg"
-        android:inputType="textEmailAddress"
-        android:hint="@string/email"
+        android:hint="@string/roll_no"
         android:padding="10dp"
         android:textColorHint="#72191818"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/staff_name" />
+        app:layout_constraintTop_toBottomOf="@+id/st_student_name" />
     <EditText
-        android:id="@+id/staff_Gender"
+        android:id="@+id/st_student_enrolment_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="@string/enrollment_no"
+        android:padding="10dp"
+        android:textColorHint="#72191818"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/st_student_roll_no" />
+    <EditText
+        android:id="@+id/st_student_branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="@string/branch"
+        android:padding="10dp"
+        android:textColorHint="#72191818"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/st_student_enrolment_no" />
+    <EditText
+        android:id="@+id/st_student_sem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="@string/semester"
+        android:padding="10dp"
+        android:textColorHint="#72191818"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/st_student_branch" />
+    <EditText
+        android:id="@+id/st_student_Gender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -68,9 +113,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/staff_email" />
+        app:layout_constraintTop_toBottomOf="@+id/st_student_sem" />
     <EditText
-        android:id="@+id/staff_address"
+        android:id="@+id/st_student_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -83,9 +128,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/staff_Gender" />
+        app:layout_constraintTop_toBottomOf="@+id/st_student_Gender" />
     <EditText
-        android:id="@+id/staff_phone_no"
+        android:id="@+id/st_student_phone_no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -93,51 +138,21 @@
         android:layout_marginEnd="8dp"
         android:background="@drawable/edit_text_bg"
         android:hint="@string/phone_no"
-        android:inputType="number"
         android:padding="10dp"
         android:textColorHint="#72191818"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/staff_address" />
-    <EditText
-        android:id="@+id/staff_role"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/edit_text_bg"
-        android:hint="@string/your_role_or_position"
-        android:padding="10dp"
-        android:textColorHint="#72191818"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/staff_phone_no" />
-    <EditText
-        android:id="@+id/staff_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/edit_text_bg"
-        android:hint="Password (min 6 characters)"
-        android:padding="10dp"
-        android:textColorHint="#72191818"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/staff_role" />
+        app:layout_constraintTop_toBottomOf="@+id/st_student_address" />
+
 
 
     <Button
-        android:id="@+id/staff_register_button"
+        android:id="@+id/student_update_button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/register"
+        android:text="@string/update"
         android:padding="8dp"
         android:fontFamily="@font/aclonica"
         android:textSize="20sp"
@@ -146,23 +161,6 @@
         android:background="@drawable/button_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/staff_password" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:fontFamily="@font/aclonica"
-        android:gravity="center"
-        android:padding="8dp"
-        android:text="@string/already_have_account_login_here"
-        android:textColor="#086A25"
-        android:textSize="20sp"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/staff_register_button" />
-
+        app:layout_constraintTop_toBottomOf="@+id/st_student_phone_no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

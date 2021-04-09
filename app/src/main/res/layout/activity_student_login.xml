@@ -23,15 +23,15 @@
 
 
     <EditText
-        android:id="@+id/student_username"
+        android:id="@+id/student_username_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="75dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/edit_text_bg"
-        android:hint="Enter your name"
-        android:inputType="textPersonName"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
         android:padding="10dp"
         android:textColorHint="#72191818"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,20 +40,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
-        android:id="@+id/student_password"
+        android:id="@+id/student_login_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/edit_text_bg"
-        android:hint="@string/password"
+        android:hint="@string/password_enrolment_no"
         android:padding="10dp"
         android:textColorHint="#72191818"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/student_username" />
+        app:layout_constraintTop_toBottomOf="@+id/student_username_email" />
 
     <Button
         android:id="@+id/student_login_button"
@@ -69,7 +69,7 @@
         android:background="@drawable/button_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/student_password" />
+        app:layout_constraintTop_toBottomOf="@+id/student_login_password" />
 
 
     <TextView

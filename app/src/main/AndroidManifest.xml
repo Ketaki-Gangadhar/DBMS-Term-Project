@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HostelManagementSystem">
-        <activity android:name=".StaffRegister"></activity>
+        <activity android:name=".HostelAllotment"></activity>
+        <activity android:name=".UpdateStudentData" />
+        <activity android:name=".UpdateStaffData" />
+        <activity android:name=".StaffRegister" />
         <activity android:name=".StaffLogin" />
         <activity android:name=".StudentRegister" />
         <activity android:name=".StudentLogin" />

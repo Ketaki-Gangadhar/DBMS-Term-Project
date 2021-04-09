@@ -24,4 +24,16 @@
     <string name="semester">Semester</string>
     <string name="new_user_create_account">New User? Create Account</string>
     <string name="already_have_account_login_here">Already have Account? LogIn here</string>
+    <string name="enter_email">Enter email</string>
+    <string name="update">Update</string>
+    <string name="update_data">Update Data</string>
+    <string name="student_name">Student name</string>
+    <string name="show_all_students">Show all Students</string>
+    <string name="password_enrolment_no">Password (Enrolment No)</string>
+    <string name="update_info">Update Info</string>
+    <string name="s1">Click here for Hostel Allotment</string>
+    <string name="your_hostel_name">(1) Your Hostel Name : </string>
+    <string name="_2_your_room_type">(2) Your Room Type</string>
+    <string name="thanks_for_filling_information">Thanks for filling Information !</string>
+    <string name="s2">Help us to maintain the Database by providing following information</string>
 </resources>
